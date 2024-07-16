@@ -1,0 +1,37 @@
+# Ignore the .idea folder (JetBrains IDE settings)
+.idea/
+
+# Ignore build output directories
+/build/
+/out/
+target/
+bin/
+
+# Ignore Kotlin specific files
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore Gradle files
+.gradle/
+/build/
+
+!gradle/wrapper/gradle-wrapper.jar
+
+# Ignore IntelliJ IDEA project files
+*.iml
+*.ipr
+*.iws
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore generated reports
+htmlReport/
+
+.vscode/
